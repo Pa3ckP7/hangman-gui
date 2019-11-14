@@ -70,16 +70,18 @@
             // 
             // GuessTextBox
             // 
-            this.GuessTextBox.Location = new System.Drawing.Point(12, 270);
+            this.GuessTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.GuessTextBox.Location = new System.Drawing.Point(12, 267);
             this.GuessTextBox.Name = "GuessTextBox";
-            this.GuessTextBox.Size = new System.Drawing.Size(405, 20);
+            this.GuessTextBox.Size = new System.Drawing.Size(405, 26);
             this.GuessTextBox.TabIndex = 3;
             // 
             // SendGuessButton
             // 
-            this.SendGuessButton.Location = new System.Drawing.Point(438, 270);
+            this.SendGuessButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.SendGuessButton.Location = new System.Drawing.Point(438, 267);
             this.SendGuessButton.Name = "SendGuessButton";
-            this.SendGuessButton.Size = new System.Drawing.Size(75, 23);
+            this.SendGuessButton.Size = new System.Drawing.Size(91, 26);
             this.SendGuessButton.TabIndex = 4;
             this.SendGuessButton.Text = "Send";
             this.SendGuessButton.UseVisualStyleBackColor = true;

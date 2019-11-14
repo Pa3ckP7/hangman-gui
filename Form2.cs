@@ -27,6 +27,7 @@ namespace Hangman_gui
 
         private void SendGuessButton_Click(object sender, EventArgs e)
         {
+            GuessTextBox.Text.Trim().ToLower();
             if (GuessTextBox.Text.Length != 0) 
             {
                 if (GuessTextBox.Text.Length > 1)
