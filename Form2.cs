@@ -87,6 +87,7 @@ namespace Hangman_gui
             {
                 MultyWin mv = new MultyWin();
                 mv.Show();
+                P2Wins = false;
                 Close();
             }
             
