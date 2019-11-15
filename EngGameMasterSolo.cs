@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Hangman_gui
 {
-    class GameMaster
+    class EngGameMasterSolo
     {
         //Pictures pic = new Pictures();
         public bool quit = false;
@@ -14,10 +15,17 @@ namespace Hangman_gui
         string code;
         public List<char> wrong_letters = new List<char>();
         List<char> used_letters = new List<char>();
-        public string EncryptWord(String words)
+        public string RandomWord()
         {
-            Passcode = words.ToLower();
-            Passcode = Passcode.Trim();
+            String[] Possible_words = File.ReadAllLines("Eng-Words.txt");
+            Random random = new Random();
+            int RandomIndex = random.Next(Possible_words.Length);
+            return Possible_words[RandomIndex].ToLower();
+        }
+        public string Encrypt(String secretword)
+        {
+
+            Passcode = secretword.ToLower();
             for (int i = 0; i < Passcode.Length; i++)
             {
                 code += "*";
@@ -33,7 +41,6 @@ namespace Hangman_gui
             }
             code = new string(c);
             return code;
-
         }
         public bool TestIfUsed(char guess)
         {

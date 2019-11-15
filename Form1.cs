@@ -29,5 +29,17 @@ namespace Hangman_gui
             wp2.Show();
             
         }
+
+        private void SoloSlovenian_Click(object sender, EventArgs e)
+        {
+            SloSolo ss = new SloSolo();
+            ss.Show();
+        }
+
+        private void SoloEnglish_Click(object sender, EventArgs e)
+        {
+            EngSolo es = new EngSolo();
+            es.Show();
+        }
     }
 }

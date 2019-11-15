@@ -91,7 +91,7 @@
             // 
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label.Location = new System.Drawing.Point(101, 177);
+            this.label.Location = new System.Drawing.Point(98, 177);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(146, 25);
             this.label.TabIndex = 5;
@@ -103,8 +103,9 @@
             this.WrongLettersText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.WrongLettersText.Location = new System.Drawing.Point(253, 177);
             this.WrongLettersText.Name = "WrongLettersText";
-            this.WrongLettersText.Size = new System.Drawing.Size(0, 25);
+            this.WrongLettersText.Size = new System.Drawing.Size(96, 25);
             this.WrongLettersText.TabIndex = 6;
+            this.WrongLettersText.Text = "              ";
             // 
             // Form2
             // 

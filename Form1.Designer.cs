@@ -117,6 +117,7 @@
             this.SoloEnglish.TabIndex = 1;
             this.SoloEnglish.Text = "Solo Play English";
             this.SoloEnglish.UseVisualStyleBackColor = true;
+            this.SoloEnglish.Click += new System.EventHandler(this.SoloEnglish_Click);
             // 
             // SoloSlovenian
             // 
@@ -130,6 +131,7 @@
             this.SoloSlovenian.TabIndex = 0;
             this.SoloSlovenian.Text = "Solo Play Slovenian";
             this.SoloSlovenian.UseVisualStyleBackColor = true;
+            this.SoloSlovenian.Click += new System.EventHandler(this.SoloSlovenian_Click);
             // 
             // Form1
             // 
