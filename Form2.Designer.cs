@@ -35,13 +35,15 @@
             this.SendGuessButton = new System.Windows.Forms.Button();
             this.label = new System.Windows.Forms.Label();
             this.WrongLettersText = new System.Windows.Forms.Label();
+            this.hangedman = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.hangedman)).BeginInit();
             this.SuspendLayout();
             // 
             // HiddenWord
             // 
             this.HiddenWord.AutoSize = true;
             this.HiddenWord.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.HiddenWord.Location = new System.Drawing.Point(96, 89);
+            this.HiddenWord.Location = new System.Drawing.Point(211, 9);
             this.HiddenWord.Name = "HiddenWord";
             this.HiddenWord.Size = new System.Drawing.Size(119, 40);
             this.HiddenWord.TabIndex = 0;
@@ -52,7 +54,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(101, 202);
+            this.label2.Location = new System.Drawing.Point(15, 388);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 25);
             this.label2.TabIndex = 1;
@@ -62,7 +64,7 @@
             // 
             this.LivesText.AutoSize = true;
             this.LivesText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.LivesText.Location = new System.Drawing.Point(211, 202);
+            this.LivesText.Location = new System.Drawing.Point(125, 388);
             this.LivesText.Name = "LivesText";
             this.LivesText.Size = new System.Drawing.Size(36, 25);
             this.LivesText.TabIndex = 2;
@@ -71,7 +73,7 @@
             // GuessTextBox
             // 
             this.GuessTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.GuessTextBox.Location = new System.Drawing.Point(12, 267);
+            this.GuessTextBox.Location = new System.Drawing.Point(13, 427);
             this.GuessTextBox.Name = "GuessTextBox";
             this.GuessTextBox.Size = new System.Drawing.Size(405, 26);
             this.GuessTextBox.TabIndex = 3;
@@ -79,7 +81,7 @@
             // SendGuessButton
             // 
             this.SendGuessButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.SendGuessButton.Location = new System.Drawing.Point(438, 267);
+            this.SendGuessButton.Location = new System.Drawing.Point(439, 427);
             this.SendGuessButton.Name = "SendGuessButton";
             this.SendGuessButton.Size = new System.Drawing.Size(91, 26);
             this.SendGuessButton.TabIndex = 4;
@@ -91,7 +93,7 @@
             // 
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label.Location = new System.Drawing.Point(98, 177);
+            this.label.Location = new System.Drawing.Point(7, 49);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(146, 25);
             this.label.TabIndex = 5;
@@ -101,18 +103,28 @@
             // 
             this.WrongLettersText.AutoSize = true;
             this.WrongLettersText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.WrongLettersText.Location = new System.Drawing.Point(253, 177);
+            this.WrongLettersText.Location = new System.Drawing.Point(167, 44);
             this.WrongLettersText.Name = "WrongLettersText";
             this.WrongLettersText.Size = new System.Drawing.Size(96, 25);
             this.WrongLettersText.TabIndex = 6;
             this.WrongLettersText.Text = "              ";
+            // 
+            // hangedman
+            // 
+            this.hangedman.Location = new System.Drawing.Point(130, 99);
+            this.hangedman.Name = "hangedman";
+            this.hangedman.Size = new System.Drawing.Size(275, 275);
+            this.hangedman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.hangedman.TabIndex = 15;
+            this.hangedman.TabStop = false;
             // 
             // Form2
             // 
             this.AcceptButton = this.SendGuessButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 318);
+            this.ClientSize = new System.Drawing.Size(541, 518);
+            this.Controls.Add(this.hangedman);
             this.Controls.Add(this.WrongLettersText);
             this.Controls.Add(this.label);
             this.Controls.Add(this.SendGuessButton);
@@ -121,11 +133,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.HiddenWord);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(557, 357);
-            this.MinimumSize = new System.Drawing.Size(557, 357);
+            this.MaximumSize = new System.Drawing.Size(557, 557);
+            this.MinimumSize = new System.Drawing.Size(557, 557);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hangman 2 players";
+            ((System.ComponentModel.ISupportInitialize)(this.hangedman)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,5 +153,6 @@
         private System.Windows.Forms.Button SendGuessButton;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label WrongLettersText;
+        private System.Windows.Forms.PictureBox hangedman;
     }
 }
