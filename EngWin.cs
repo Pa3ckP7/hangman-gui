@@ -15,6 +15,7 @@ namespace Hangman_gui
         public EngWin()
         {
             InitializeComponent();
+            this.BackgroundImage = Image.FromFile(@"assets\bgs\solowin.png");
         }
 
         private void QuitApplicationButton_Click(object sender, EventArgs e)
