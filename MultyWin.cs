@@ -15,6 +15,7 @@ namespace Hangman_gui
         public MultyWin()
         {
             InitializeComponent();
+            this.BackgroundImage = Image.FromFile("assets/bgs/solowin.png");
         }
 
         private void RematchButton_Click(object sender, EventArgs e)

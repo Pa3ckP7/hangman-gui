@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MainName = new System.Windows.Forms.Label();
             this.Creator = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.QuitButton = new System.Windows.Forms.Button();
@@ -38,20 +37,10 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // MainName
-            // 
-            this.MainName.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.MainName.Font = new System.Drawing.Font("Script MT Bold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MainName.Location = new System.Drawing.Point(53, 74);
-            this.MainName.Name = "MainName";
-            this.MainName.Size = new System.Drawing.Size(305, 85);
-            this.MainName.TabIndex = 0;
-            this.MainName.Text = "Hangman";
-            this.MainName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Creator
             // 
             this.Creator.AutoSize = true;
+            this.Creator.BackColor = System.Drawing.Color.DarkGray;
             this.Creator.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Creator.Location = new System.Drawing.Point(325, 523);
             this.Creator.Name = "Creator";
@@ -61,6 +50,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.QuitButton, 0, 3);
@@ -140,7 +130,6 @@
             this.ClientSize = new System.Drawing.Size(429, 561);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.Creator);
-            this.Controls.Add(this.MainName);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(445, 600);
             this.MinimumSize = new System.Drawing.Size(445, 600);
@@ -154,8 +143,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label MainName;
         private System.Windows.Forms.Label Creator;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button QuitButton;

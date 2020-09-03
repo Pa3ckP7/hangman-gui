@@ -16,6 +16,8 @@ namespace Hangman_gui
         {
             InitializeComponent();
             WordText.Text = str;
+            this.BackgroundImage = Image.FromFile(@"assets/bgs/sololoss.png");
+            
         }
 
         private void QuitApplicationButton_Click(object sender, EventArgs e)

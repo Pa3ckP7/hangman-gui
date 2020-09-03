@@ -40,8 +40,9 @@
             // WordText
             // 
             this.WordText.AutoSize = true;
+            this.WordText.BackColor = System.Drawing.Color.Transparent;
             this.WordText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.WordText.Location = new System.Drawing.Point(172, 106);
+            this.WordText.Location = new System.Drawing.Point(126, 77);
             this.WordText.Name = "WordText";
             this.WordText.Size = new System.Drawing.Size(55, 24);
             this.WordText.TabIndex = 24;
@@ -50,8 +51,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(67, 106);
+            this.label3.Location = new System.Drawing.Point(21, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 24);
             this.label3.TabIndex = 23;
@@ -59,7 +61,8 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(81, 353);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(75, 398);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 42);
             this.label2.TabIndex = 22;
@@ -67,7 +70,7 @@
             // 
             // QuitModeButton
             // 
-            this.QuitModeButton.Location = new System.Drawing.Point(84, 238);
+            this.QuitModeButton.Location = new System.Drawing.Point(78, 283);
             this.QuitModeButton.Name = "QuitModeButton";
             this.QuitModeButton.Size = new System.Drawing.Size(155, 53);
             this.QuitModeButton.TabIndex = 21;
@@ -77,7 +80,7 @@
             // 
             // QuitApplicationButton
             // 
-            this.QuitApplicationButton.Location = new System.Drawing.Point(84, 297);
+            this.QuitApplicationButton.Location = new System.Drawing.Point(78, 342);
             this.QuitApplicationButton.Name = "QuitApplicationButton";
             this.QuitApplicationButton.Size = new System.Drawing.Size(155, 53);
             this.QuitApplicationButton.TabIndex = 20;
@@ -87,7 +90,7 @@
             // 
             // RematchButton
             // 
-            this.RematchButton.Location = new System.Drawing.Point(84, 179);
+            this.RematchButton.Location = new System.Drawing.Point(78, 224);
             this.RematchButton.Name = "RematchButton";
             this.RematchButton.Size = new System.Drawing.Size(155, 53);
             this.RematchButton.TabIndex = 19;
@@ -98,8 +101,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(77, 55);
+            this.label1.Location = new System.Drawing.Point(71, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(149, 40);
             this.label1.TabIndex = 18;

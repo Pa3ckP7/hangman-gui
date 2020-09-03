@@ -38,7 +38,7 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(72, 397);
+            this.label2.Location = new System.Drawing.Point(72, 390);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 42);
             this.label2.TabIndex = 9;
@@ -46,7 +46,7 @@
             // 
             // QuitModeButton
             // 
-            this.QuitModeButton.Location = new System.Drawing.Point(75, 282);
+            this.QuitModeButton.Location = new System.Drawing.Point(75, 275);
             this.QuitModeButton.Name = "QuitModeButton";
             this.QuitModeButton.Size = new System.Drawing.Size(155, 53);
             this.QuitModeButton.TabIndex = 8;
@@ -56,7 +56,7 @@
             // 
             // QuitApplicationButton
             // 
-            this.QuitApplicationButton.Location = new System.Drawing.Point(75, 341);
+            this.QuitApplicationButton.Location = new System.Drawing.Point(75, 334);
             this.QuitApplicationButton.Name = "QuitApplicationButton";
             this.QuitApplicationButton.Size = new System.Drawing.Size(155, 53);
             this.QuitApplicationButton.TabIndex = 7;
@@ -66,7 +66,7 @@
             // 
             // RematchButton
             // 
-            this.RematchButton.Location = new System.Drawing.Point(75, 223);
+            this.RematchButton.Location = new System.Drawing.Point(75, 216);
             this.RematchButton.Name = "RematchButton";
             this.RematchButton.Size = new System.Drawing.Size(155, 53);
             this.RematchButton.TabIndex = 6;
@@ -79,7 +79,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(68, 55);
+            this.label1.Location = new System.Drawing.Point(77, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(140, 40);
             this.label1.TabIndex = 5;
