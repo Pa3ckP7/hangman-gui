@@ -15,6 +15,7 @@ namespace Hangman_gui
         public SloSolo()
         {
             InitializeComponent();
+            this.Icon = new Icon("assets/ico/ico.ico");
         }
 
         private void SloSolo_Load(object sender, EventArgs e)

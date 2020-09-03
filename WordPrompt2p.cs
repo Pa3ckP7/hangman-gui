@@ -15,6 +15,7 @@ namespace Hangman_gui
         public WordPrompt2p()
         {
             InitializeComponent();
+            this.Icon = new Icon("assets/ico/ico.ico");
         }
 
         private void ButtonCancel_Click(object sender, EventArgs e)

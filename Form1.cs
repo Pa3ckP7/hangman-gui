@@ -17,6 +17,7 @@ namespace Hangman_gui
         {
             InitializeComponent();
             this.BackgroundImage = Image.FromFile("assets/bgs/mainbg.png");
+            this.Icon = new Icon("assets/ico/ico.ico");
         }
 
         private void QuitButton_Click(object sender, EventArgs e)

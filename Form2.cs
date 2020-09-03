@@ -19,6 +19,7 @@ namespace Hangman_gui
             Lives = 10;
             hangedman.Image = Image.FromFile(@"assets/stage/default.png");
             Load_states();
+            this.Icon = new Icon("assets/ico/ico.ico");
         }
         private void Load_states()
         {

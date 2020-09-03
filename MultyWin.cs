@@ -16,6 +16,7 @@ namespace Hangman_gui
         {
             InitializeComponent();
             this.BackgroundImage = Image.FromFile("assets/bgs/solowin.png");
+            this.Icon = new Icon("assets/ico/ico.ico");
         }
 
         private void RematchButton_Click(object sender, EventArgs e)

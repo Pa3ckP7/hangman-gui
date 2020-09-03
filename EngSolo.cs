@@ -14,6 +14,7 @@ namespace Hangman_gui
         public EngSolo()
         {
             InitializeComponent();
+            this.Icon = new Icon("assets/ico/ico.ico");
         }
 
         private void EngSolo_Load(object sender, EventArgs e)
